@@ -12,6 +12,9 @@ https://didasmbalanya.github.io/Third-Independent-Project/
 none on the current version
 ## Technologies Used
 HTML,CSS and JavaScript(jQuery FrameWork).
+##specifications
+It only takes one choice as an answer
+Cannot select more than 1 answer
 ##BDD
 Display question and options
 Take user input as a choice in the possible answers
