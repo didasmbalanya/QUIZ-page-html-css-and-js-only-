@@ -27,7 +27,9 @@ jQuery(document).ready(function(){
 	 	if (a4 === answers[3]){
 	 		total += 10
 	 	}
+	 	total = total/40 * 100
 	 	alert(total)
 	 }
 	});
+
 })
