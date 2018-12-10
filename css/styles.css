@@ -1,15 +1,14 @@
 body{
-	background-color: lightgray;
+	background-color: white;
 }
 pre{
 	background-color: powderblue  ;
 }
 .article{
-	float: left;
 	width: 60%;
 }
 .rules{
-	float: right;
+	
 	width: 40%;
 }
 .footer{
@@ -27,4 +26,7 @@ hr{
 }
 .main {
 	display:none;
+}
+h2{
+	text-align: center;
 }
