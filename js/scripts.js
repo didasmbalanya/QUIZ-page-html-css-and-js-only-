@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
 	var a3 = $("input:radio[name=answer3]:checked").val();
 	var a4 = $("input:radio[name=answer4]:checked").val();
 	
-	
+	$(".article").hide()
 	if (a1 == undefined|| a2 == undefined || a3 == undefined || a4 == undefined){
 	 	alert ("Complete all the questions");
 	 }
@@ -28,7 +28,10 @@ jQuery(document).ready(function(){
 	 		total += 10
 	 	}
 	 	total = total/40 * 100
-	 	alert(total)
+	 	$(document).ready(function(){
+	 		$(".hide").hide()
+	 		alert("your score is "+total+"%")
+	 	})
 	 }
 	});
 
