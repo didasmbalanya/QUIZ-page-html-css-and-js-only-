@@ -19,3 +19,9 @@ pre{
 	color: white;
 	text-align: center;
 }
+hr{
+	height: 2px;
+	background-color: black;
+	color: black;
+	border: none;
+}
