@@ -6,6 +6,7 @@ pre{
 }
 .article{
 	width: 60%;
+	display: none;
 }
 .rules{
 	

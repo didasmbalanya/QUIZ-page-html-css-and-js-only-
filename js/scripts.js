@@ -1,6 +1,13 @@
 var answers = ["Abraham Lincoln","true","China","Tesla"]
 jQuery(document).ready(function(){
 	
+	$(document).ready(function(){
+    	$("#show").click(function(){
+        	$("#intro").hide();
+        	$(".article").show();
+    	});
+    });
+    
 
 	$(".article form").submit(function(event){
 	
@@ -31,6 +38,9 @@ jQuery(document).ready(function(){
 	 	$(document).ready(function(){
 	 		$(".hide").hide()
 	 		alert("your score is "+total+"%")
+	 		$(".hide").click(function(){
+	 			$("body").show();
+	 		});
 	 	})
 	 }
 	});
