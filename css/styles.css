@@ -25,3 +25,6 @@ hr{
 	color: black;
 	border: none;
 }
+.main {
+	display:none;
+}

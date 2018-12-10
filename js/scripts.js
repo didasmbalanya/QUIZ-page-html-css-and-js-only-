@@ -28,6 +28,9 @@ $(document).ready(function(){
 	 		total += 10
 	 	}
 	 	alert(total)
+	 	var score = total
+	 	$("#result").text(score);
+	
 	 }
 	});
 })
