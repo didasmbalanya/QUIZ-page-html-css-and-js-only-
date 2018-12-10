@@ -9,7 +9,7 @@ Click on the the link bellow and enter the values for any triange in the prompt
 ## Site on git pages
 https://didasmbalanya.github.io/Third-Independent-Project/
 ## Known Bugs
-none on the current version
+Refresh page after results manually.
 ## Technologies Used
 HTML,CSS and JavaScript(jQuery FrameWork).
 ##specifications
@@ -19,6 +19,7 @@ Cannot select more than 1 answer
 Display question and options
 Take user input as a choice in the possible answers
 Calculate total user results based on answer accuracy
+Out put results in percentage
 ## Support and contact details
 hit me up at obi-one-kanobi@lies.com if you find any challanges
 ### License

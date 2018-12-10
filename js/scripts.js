@@ -39,11 +39,12 @@ jQuery(document).ready(function(){
 	 		$(".hide").hide()
 	 		$(".result").append(total)
 	 		$("#final").show()
-	 		//alert("your score is "+total+"%")
+	 		
 	
 	 	})
-	 }
 	 event.preventDefault()
+	 }
+	 
 	});
 
 })
