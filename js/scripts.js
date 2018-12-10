@@ -37,12 +37,13 @@ jQuery(document).ready(function(){
 	 	total = total/40 * 100
 	 	$(document).ready(function(){
 	 		$(".hide").hide()
-	 		alert("your score is "+total+"%")
-	 		$(".hide").click(function(){
-	 			$("body").show();
-	 		});
+	 		$(".result").append(total)
+	 		$("#final").show()
+	 		//alert("your score is "+total+"%")
+	
 	 	})
 	 }
+	 event.preventDefault()
 	});
 
 })
