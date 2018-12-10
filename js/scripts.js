@@ -1,5 +1,5 @@
 var answers = ["Abraham Lincoln","true","China","Tesla"]
-$(document).ready(function(){
+jQuery(document).ready(function(){
 	
 
 	$(".article form").submit(function(event){
